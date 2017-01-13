@@ -1,0 +1,46 @@
+insert into organization (room_no,doctor_name,bill_cash) values (101,'Mustafizur rahaman',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (102,'Mustafizur rahaman',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (103,'Anisul Haque',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (104,'Rakibul Ahsan',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (105,'Ziaur rahaman',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (106,'Niaz Morshed',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (107,'Anamul Haque',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (108,'Rakib Ahsan',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (109,'Mustafiz rahaman',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (110,'Mustafiz rahaman',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (111,'Anis Haque',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (112,'Rakib Ahsan',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (113,'Leon Talukdar',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (114,'Rupayon Sarkar',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (115,'Rakib choedhury',1458.00);
+insert into organization (room_no,doctor_name,bill_cash) values (116,'Rakibul Ahsan',1458.00);
+
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1101,'niaz mahmud','Cholera',125);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1102,'niaz mahmud','Dengue',126);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1103,'rubel hossain','Ear infection',100);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1104,'rana mjumdar','Yellow fever',782);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1105,'Abu musa ','Cholera',125);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1106,'Liton Das','Eyes infection',126);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1107,'rubel hossain','Ear infection',100);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1108,'rana mjumdar','Yellow fever',782);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1109,'niaz morshed','Cholera',125);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1110,'Shamim ahmed','Dengue',126);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1111,'Drubo Sarkar','Ear infection',100);
+insert into patient (registretion_no,patient_name,diseage_type,bill_paide) values (1112,'rana mjumdar','Yellow fever',782);
+
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (101,'Mustafizur rahaman',1104,'rana mjumdar','refer to the hospital');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (102,'Mustafizur rahaman',1102,'niaz mahmud','Aurodex');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (103,'Anisul Haque',1101,'niaz mahmud','rehydretion,antibiotics');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (104,'Rakibul Ahsan',1103,'rubel hossain','antibiotics,refer to hospital');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (105,'Ziaur rahaman',1104,'rana mjumdar','refer to the hospital');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (106,'Niaz Morshed',1105,'Abu musa','refer to the hospital');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (107,'Anamul Haque',1106,'Liton Das','rehydretion,antibiotics');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (108,'Rakib Ahsan',1107,'rubel hossain','antibiotics,refer to hospital');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (109,'Mustafiz rahaman',1108,'rana mjumdar','refer to the hospital');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (110,'Mustafiz rahaman',1109,'niaz morshed','refer to the hospital');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (111,'Anis Haque',1110,'Shamim Ahmed','antibiotics,to hospital');
+insert into doctor(rom_no,doctor_naame,register_no,patient_naame,Prescription) values (112,'Rakib Ahsan',1111,'Drubo Sarkar','antibiotics');
+
+select *from organization;
+select *from patient;
+select *from doctor;
